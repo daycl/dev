@@ -77,10 +77,11 @@ app_version = "0.0.1"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"dev.tasks.all"
-# 	],
+scheduler_events = {
+	"all": [
+		"dev.tasks.all"
+	]
+# 	,
 # 	"daily": [
 # 		"dev.tasks.daily"
 # 	],
@@ -89,11 +90,11 @@ app_version = "0.0.1"
 # 	],
 # 	"weekly": [
 # 		"dev.tasks.weekly"
-# 	]
+# 	],
 # 	"monthly": [
 # 		"dev.tasks.monthly"
 # 	]
-# }
+}
 
 # Testing
 # -------
